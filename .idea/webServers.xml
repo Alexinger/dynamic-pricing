@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c173b6de-ddbb-4d8c-8e44-8a92ecf0fb88" name="plugin_dynamic_pricing_basic_version" url="http://alexing.ftp.tools">
+        <fileTransfer host="alexing.ftp.tools" port="21" rootFolder="/keratin-studio.com.ua/www/wp-content/plugins/dynamic-pricing-and-discounts-for-woocommerce-basic-version">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
