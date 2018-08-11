@@ -35,10 +35,10 @@ ob_start();
     }
 
 </style>
-<h4 class='xa_sp_table_head1 manage-column column-product column-primary' style="text-align:center"><?php _e('Bulk Product Offers', 'eh-dynamic-pricing-discounts'); ?></h4>
-<table class='xa_sp_table wp-list-table widefat fixed striped stock table-striped table table-responsive' style=' width:100%;   margin-right: auto;'>
+<h4 class='xa_sp_table_head1 manage-column column-product column-primary' style="text-align:center"><?php _e('Оптовые цены', 'eh-dynamic-pricing-discounts'); ?></h4>
+<table class='xa_sp_table wp-list-table widefat fixed striped stock table-striped table table-active' style=' width:100%;   margin-right: auto;'>
 
-    <thead class='xa_sp_table_head2' style="font-size: 14px;  "><tr ><td width=10px class="xa_sp_table_head2_cell"><?php _e('Min Buy', 'eh-dynamic-pricing-discounts'); ?></td><td  class="xa_sp_table_head2_cell"><?php _e('Max Buy', 'eh-dynamic-pricing-discounts'); ?></td><td  class="xa_sp_table_head2_cell"><?php _e('Offer', 'eh-dynamic-pricing-discounts'); ?></td></tr></thead>
+    <thead class='xa_sp_table_head2' style="font-size: 14px;  "><tr ><td width=10px class="xa_sp_table_head2_cell" style="width: 30%;"><?php _e('Мин. количество', 'eh-dynamic-pricing-discounts'); ?></td><td  class="xa_sp_table_head2_cell" style="width: 30%;"><?php _e('Макс. количество', 'eh-dynamic-pricing-discounts'); ?></td><td  class="xa_sp_table_head2_cell" style="width: 30%;"><?php _e('Цена', 'eh-dynamic-pricing-discounts'); ?></td></tr></thead>
     <tbody class='xa_sp_table_body'>
         <?php
         $settings_optn=get_option('xa_dynamic_pricing_setting');
