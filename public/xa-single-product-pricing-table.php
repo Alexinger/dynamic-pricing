@@ -92,7 +92,7 @@ ob_start();
                     } elseif ($rule['discount_type'] == 'Flat Discount') {
                         echo "   $Price " . __("Discount", 'eh-dynamic-pricing-discounts') . "</td>";
                     } elseif ($rule['discount_type'] == 'Fixed Price') {
-                        echo "   $Price " . __("Fixed Price", 'eh-dynamic-pricing-discounts') . "</td>";
+                        echo "   $Price " . __("", 'eh-dynamic-pricing-discounts') . "</td>";
                     } else {
                         echo " $Price " . __($rule['discount_type'], 'eh-dynamic-pricing-discounts');
                     }
